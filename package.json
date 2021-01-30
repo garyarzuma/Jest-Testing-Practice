@@ -4,7 +4,8 @@
   "description": "Use Jest to practice writing tests for various functions like caesar ciphers and string/array manipulation functions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "jest --watch *.js"
   },
   "repository": {
     "type": "git",
